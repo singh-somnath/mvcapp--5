@@ -19,7 +19,10 @@ namespace mvcapp
                 new Course {Id=1,Name="AZ-104", Description="Microsoft Azure Administrator", Rating=4.5},
                 new Course {Id=2,Name="AZ-204", Description="Microsoft Azure Developer", Rating=4.6},
                 new Course {Id=3,Name="AZ-303", Description="Microsoft Azure Architect", Rating=4.7},
-                new Course { Id = 4, Name = "AZ-900", Description = "Microsoft Azure Fundamentals", Rating = 4.7 }
+                new Course { Id = 4, Name = "AZ-900", Description = "Microsoft Azure Fundamentals", Rating = 4.7 },
+                new Course { Id = 5, Name = "AZ-01", Description = "Microsoft Azure Fundamentals", Rating = 4.7 },
+                new Course { Id = 6, Name = "AZ-03", Description = "Microsoft Azure Fundamentals", Rating = 4.7 },
+                new Course { Id = 7, Name = "AZ-02", Description = "Microsoft Azure Fundamentals", Rating = 4.7 }
             };
             System.Web.HttpContext.Current.Application.Lock();
             System.Web.HttpContext.Current.Application["dtset"] = dtset;
